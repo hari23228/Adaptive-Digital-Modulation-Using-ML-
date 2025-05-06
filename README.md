@@ -1,3 +1,4 @@
+
 <h1 align="center">📶 Adaptive Digital Modulation using ML</h1>
 <h3 align="center">Real-time Smart Switching between BPSK & QPSK using Machine Learning</h3>
 
@@ -53,3 +54,42 @@ This project implements an **adaptive digital modulation** system that dynamical
 Random Source ➡️ Modulator (BPSK/QPSK)
                 ➡️ Noise Block ➡️ Feature Extraction ➡️
                 ➡️ ML Modulation Switch ➡️ Output
+```
+
+### Features Extracted:
+- 📶 SNR (Signal-to-Noise Ratio)
+- ⚠️ BER (Bit Error Rate)
+- 🌀 Phase Spread
+
+---
+
+## 📊 Results
+
+- KNN achieved the highest accuracy
+- Real-time switching successful in GNU Radio
+- Cross-validation confirmed model robustness
+
+---
+
+## 📄 Dataset
+
+- 1800 samples with SNR, BER, Spread, and label (BPSK/QPSK)
+- Collected via GNU Radio in both clean and noisy conditions
+- Balanced and realistic for training ML models
+
+---
+
+## 📬 Team & Contact
+
+**Team C15 – Amrita Vishwa Vidyapeetham**
+- Hari Vaarthan T D
+- V. Sai Ved
+- U. Aditya Sandeep
+- K. V. Nihal Reddy  
+📧 Hariai.td@gmail.com
+
+
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzk3eWkzZWVlbG53bm1ubmc4M3h1MXRlY2R3emoxb2YzYm1yMGEyMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26AHONQ79FdWZhAI0/giphy.gif" width="180" />
+</p>
